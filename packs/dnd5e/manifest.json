@@ -1,0 +1,17 @@
+{
+  "pack_id": "dnd5e",
+  "name": "D&D 5e",
+  "type": "game_system",
+  "version": "0.1.0",
+  "description": "Placeholder game-system expansion with optional scene audio folders.",
+  "system": "system.json",
+  "audio": {
+    "root": "audio",
+    "folders": [
+      { "path": "Battle Mode", "kind": "ambience", "description": "Combat and initiative music queue." },
+      { "path": "Tavern", "kind": "ambience", "description": "Social and rest scene music queue." },
+      { "path": "Dungeon", "kind": "ambience", "description": "Exploration and tension music queue." },
+      { "path": "SFX", "kind": "effect", "description": "One-shot table sound effects." }
+    ]
+  }
+}

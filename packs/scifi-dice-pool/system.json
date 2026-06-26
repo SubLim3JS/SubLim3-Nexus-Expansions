@@ -1,0 +1,14 @@
+{
+  "system_id": "scifi-dice-pool",
+  "name": "Sci-Fi Dice Pool",
+  "version": "0.1.0",
+  "summary": "Placeholder system template.",
+  "character_sheet": {
+    "fields": [],
+    "resources": [],
+    "conditions": [],
+    "trackers": [],
+    "presets": []
+  },
+  "controller_pages": []
+}

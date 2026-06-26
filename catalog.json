@@ -1,0 +1,17 @@
+{
+  "catalog_version": 1,
+  "name": "SubLim3 Nexus Expansions",
+  "description": "Optional game systems and audio packs for SubLim3 Nexus.",
+  "packs": [
+    {
+      "pack_id": "dnd5e",
+      "type": "game_system",
+      "manifest": "packs/dnd5e/manifest.json"
+    },
+    {
+      "pack_id": "fantasy-core",
+      "type": "audio_pack",
+      "manifest": "audio-packs/fantasy-core/manifest.json"
+    }
+  ]
+}

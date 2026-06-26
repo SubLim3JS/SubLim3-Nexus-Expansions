@@ -1,0 +1,16 @@
+{
+  "pack_id": "scifi-dice-pool",
+  "name": "Sci-Fi Dice Pool",
+  "type": "game_system",
+  "version": "0.1.0",
+  "description": "Placeholder sci-fi game-system expansion.",
+  "system": "system.json",
+  "audio": {
+    "root": "audio",
+    "folders": [
+      { "path": "Battle Mode", "kind": "ambience" },
+      { "path": "Starship", "kind": "ambience" },
+      { "path": "SFX", "kind": "effect" }
+    ]
+  }
+}

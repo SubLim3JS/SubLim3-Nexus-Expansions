@@ -1,0 +1,14 @@
+{
+  "system_id": "dnd5e",
+  "name": "D&D 5e",
+  "version": "0.1.0",
+  "summary": "Placeholder system template. Replace with the full Nexus D&D 5e template when ready.",
+  "character_sheet": {
+    "fields": [],
+    "resources": [],
+    "conditions": [],
+    "trackers": [],
+    "presets": []
+  },
+  "controller_pages": []
+}

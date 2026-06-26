@@ -1,0 +1,13 @@
+{
+  "pack_id": "fantasy-town",
+  "name": "Fantasy: Town",
+  "type": "audio_pack",
+  "version": "0.1.0",
+  "description": "Fantasy town audio for markets, streets, guild halls, and city scenes.",
+  "library_folder": "Fantasy",
+  "files": "files",
+  "tags": ["Fantasy", "Town", "City"],
+  "folders": [
+    { "path": "Town", "kind": "ambience", "description": "Folder queue for towns and city scenes." }
+  ]
+}

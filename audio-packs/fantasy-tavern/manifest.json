@@ -1,0 +1,13 @@
+{
+  "pack_id": "fantasy-tavern",
+  "name": "Fantasy: Tavern",
+  "type": "audio_pack",
+  "version": "0.1.0",
+  "description": "Fantasy tavern audio for inns, social scenes, and warm table downtime.",
+  "library_folder": "Fantasy",
+  "files": "files",
+  "tags": ["Fantasy", "Tavern", "Social"],
+  "folders": [
+    { "path": "Tavern", "kind": "ambience", "description": "Folder queue for taverns and social scenes." }
+  ]
+}

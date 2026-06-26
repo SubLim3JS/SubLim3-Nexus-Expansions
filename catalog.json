@@ -9,9 +9,34 @@
       "manifest": "packs/dnd5e/manifest.json"
     },
     {
-      "pack_id": "fantasy-core",
+      "pack_id": "fantasy-battle-mode",
       "type": "audio_pack",
-      "manifest": "audio-packs/fantasy-core/manifest.json"
+      "manifest": "audio-packs/fantasy-battle-mode/manifest.json"
+    },
+    {
+      "pack_id": "fantasy-tavern",
+      "type": "audio_pack",
+      "manifest": "audio-packs/fantasy-tavern/manifest.json"
+    },
+    {
+      "pack_id": "fantasy-town",
+      "type": "audio_pack",
+      "manifest": "audio-packs/fantasy-town/manifest.json"
+    },
+    {
+      "pack_id": "fantasy-travel",
+      "type": "audio_pack",
+      "manifest": "audio-packs/fantasy-travel/manifest.json"
+    },
+    {
+      "pack_id": "horror-chase",
+      "type": "audio_pack",
+      "manifest": "audio-packs/horror-chase/manifest.json"
+    },
+    {
+      "pack_id": "horror-tension",
+      "type": "audio_pack",
+      "manifest": "audio-packs/horror-tension/manifest.json"
     }
   ]
 }

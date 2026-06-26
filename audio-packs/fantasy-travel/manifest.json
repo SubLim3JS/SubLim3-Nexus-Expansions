@@ -1,0 +1,13 @@
+{
+  "pack_id": "fantasy-travel",
+  "name": "Fantasy: Travel",
+  "type": "audio_pack",
+  "version": "0.1.0",
+  "description": "Fantasy travel audio for roads, journeys, and exploration between destinations.",
+  "library_folder": "Fantasy",
+  "files": "files",
+  "tags": ["Fantasy", "Travel", "Journey"],
+  "folders": [
+    { "path": "Travel", "kind": "ambience", "description": "Folder queue for journeys and exploration." }
+  ]
+}

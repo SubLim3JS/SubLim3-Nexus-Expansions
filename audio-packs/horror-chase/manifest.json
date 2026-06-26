@@ -1,0 +1,13 @@
+{
+  "pack_id": "horror-chase",
+  "name": "Horror: Chase",
+  "type": "audio_pack",
+  "version": "0.1.0",
+  "description": "Horror chase audio for pursuit, panic, and high-pressure scenes.",
+  "library_folder": "Horror",
+  "files": "files",
+  "tags": ["Horror", "Chase", "Panic"],
+  "folders": [
+    { "path": "Chase", "kind": "ambience", "description": "Folder queue for chase scenes." }
+  ]
+}

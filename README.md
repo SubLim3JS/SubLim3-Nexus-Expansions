@@ -23,15 +23,30 @@ packs/
       SFX/
 
 audio-packs/
-  fantasy-core/
+  fantasy-battle-mode/
     manifest.json
     files/
       Battle Mode/
-      Boss Fight/
-      Dungeon/
+  fantasy-tavern/
+    manifest.json
+    files/
       Tavern/
+  fantasy-town/
+    manifest.json
+    files/
+      Town/
+  fantasy-travel/
+    manifest.json
+    files/
       Travel/
-      SFX/
+  horror-chase/
+    manifest.json
+    files/
+      Chase/
+  horror-tension/
+    manifest.json
+    files/
+      Tension/
 ```
 
 ## Where to put game-system audio
@@ -62,10 +77,10 @@ audio-packs/<audio_pack_id>/files/<scene-folder>/<audio-file>
 Examples:
 
 ```text
-audio-packs/fantasy-core/files/Battle Mode/battle-drums.ogg
-audio-packs/fantasy-core/files/Battle Mode/cover.jpg
-audio-packs/fantasy-core/files/Dungeon/deep-cavern.flac
-audio-packs/fantasy-core/files/SFX/door-open.wav
+audio-packs/fantasy-battle-mode/files/Battle Mode/battle-drums.ogg
+audio-packs/fantasy-battle-mode/files/Battle Mode/cover.jpg
+audio-packs/fantasy-tavern/files/Tavern/busy-inn.mp3
+audio-packs/horror-chase/files/Chase/pursuit.wav
 ```
 
 Add `cover.jpg`, `cover.jpeg`, `cover.png`, or `cover.webp` to any audio
@@ -78,10 +93,17 @@ Nexus preserves folder names when importing audio. In the Media player, the GM
 can select a folder such as:
 
 ```text
-Expansion Audio/Dnd5e/Battle Mode
+Expansion Audio/Fantasy/Battle Mode
+Expansion Audio/Horror/Chase
 ```
 
 That folder becomes the active scene queue.
+
+Each scene is its own installable audio pack. Use the manifest field
+`library_folder` to group related packs together in the Media Library. For
+example, `fantasy-battle-mode`, `fantasy-tavern`, `fantasy-town`, and
+`fantasy-travel` all set `"library_folder": "Fantasy"`, so they install beneath
+`Expansion Audio/Fantasy/...` while remaining individually installable.
 
 Recommended folder names:
 

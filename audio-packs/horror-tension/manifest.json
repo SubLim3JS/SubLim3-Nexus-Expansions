@@ -1,0 +1,13 @@
+{
+  "pack_id": "horror-tension",
+  "name": "Horror: Tension",
+  "type": "audio_pack",
+  "version": "0.1.0",
+  "description": "Horror tension audio for suspense, dread, and ominous table moments.",
+  "library_folder": "Horror",
+  "files": "files",
+  "tags": ["Horror", "Tension", "Dread"],
+  "folders": [
+    { "path": "Tension", "kind": "ambience", "description": "Folder queue for suspense and dread." }
+  ]
+}

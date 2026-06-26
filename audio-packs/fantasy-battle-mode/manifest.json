@@ -1,0 +1,13 @@
+{
+  "pack_id": "fantasy-battle-mode",
+  "name": "Fantasy: Battle Mode",
+  "type": "audio_pack",
+  "version": "0.1.0",
+  "description": "Fantasy combat music for active battles and dangerous encounters.",
+  "library_folder": "Fantasy",
+  "files": "files",
+  "tags": ["Fantasy", "Battle", "Combat"],
+  "folders": [
+    { "path": "Battle Mode", "kind": "ambience", "description": "Folder queue for combat scenes." }
+  ]
+}

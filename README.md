@@ -46,6 +46,7 @@ Examples:
 
 ```text
 packs/dnd5e/audio/Battle Mode/initiative-rise.mp3
+packs/dnd5e/audio/Battle Mode/cover.jpg
 packs/dnd5e/audio/Tavern/busy-inn.ogg
 packs/dnd5e/audio/SFX/critical-hit.wav
 ```
@@ -62,9 +63,14 @@ Examples:
 
 ```text
 audio-packs/fantasy-core/files/Battle Mode/battle-drums.ogg
+audio-packs/fantasy-core/files/Battle Mode/cover.jpg
 audio-packs/fantasy-core/files/Dungeon/deep-cavern.flac
 audio-packs/fantasy-core/files/SFX/door-open.wav
 ```
+
+Add `cover.jpg`, `cover.jpeg`, `cover.png`, or `cover.webp` to any audio
+folder to use it as the Media player album art for tracks imported from that
+folder. Child folders inherit the nearest parent cover.
 
 ## Folder names become GM queues
 

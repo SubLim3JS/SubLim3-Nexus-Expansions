@@ -1,0 +1,34 @@
+{
+  "pack_id": "magic-sfx",
+  "name": "Magic SFX",
+  "version": "1.0.0",
+  "description": "One-shot spell effects for casting, portals, curses, and healing sparks.",
+  "availability": "free",
+  "library_folder": "Sound Effects/Magic",
+  "content_type": "sound_effects",
+  "genre": "Fantasy",
+  "scene": "Magic",
+  "mood": [
+    "arcane",
+    "bright",
+    "strange"
+  ],
+  "recommended_for": [
+    "Spellcasting",
+    "Magic item reveals",
+    "Supernatural events"
+  ],
+  "sample_track": "SFX/spell-cast.wav",
+  "license": "Original generated test audio",
+  "credits": "Generated for SubLim3 Nexus testing",
+  "commerce": {
+    "model": "free_testing",
+    "label": "Free for testing",
+    "future_label": "Try them"
+  },
+  "tags": [
+    "SFX",
+    "Magic",
+    "Fantasy"
+  ]
+}

@@ -47,6 +47,30 @@ audio-packs/
     manifest.json
     files/
       Tension/
+  dungeon-sfx/
+    manifest.json
+    files/
+      SFX/
+  cave-sfx/
+    manifest.json
+    files/
+      SFX/
+  sea-sfx/
+    manifest.json
+    files/
+      SFX/
+  forest-sfx/
+    manifest.json
+    files/
+      SFX/
+  battle-sfx/
+    manifest.json
+    files/
+      SFX/
+  magic-sfx/
+    manifest.json
+    files/
+      SFX/
 ```
 
 ## Where to put game-system audio
@@ -81,6 +105,8 @@ audio-packs/fantasy-battle-mode/files/Battle Mode/battle-drums.ogg
 audio-packs/fantasy-battle-mode/files/Battle Mode/cover.jpg
 audio-packs/fantasy-tavern/files/Tavern/busy-inn.mp3
 audio-packs/horror-chase/files/Chase/pursuit.wav
+audio-packs/dungeon-sfx/files/SFX/stone-rumble.wav
+audio-packs/sea-sfx/files/SFX/wave-crash.wav
 ```
 
 Add `cover.jpg`, `cover.jpeg`, `cover.png`, or `cover.webp` to any audio
@@ -104,6 +130,36 @@ Each scene is its own installable audio pack. Use the manifest field
 example, `fantasy-battle-mode`, `fantasy-tavern`, `fantasy-town`, and
 `fantasy-travel` all set `"library_folder": "Fantasy"`, so they install beneath
 `Expansion Audio/Fantasy/...` while remaining individually installable.
+
+Each current scene-audio pack includes a short generated WAV sample named
+`nexus-<pack-id>-sample.wav`. SFX packs include several short named one-shot WAV
+files. All included samples are original procedural test audio so a fresh Nexus
+can install and play a pack without needing outside media.
+
+Sound-effect packs are shared audio packs whose files live under `files/SFX/`.
+They install into `Expansion Audio/Sound Effects/<theme>/SFX` and are imported
+as one-shot effects instead of looping scene ambience. The current SFX pack set
+is:
+
+- `dungeon-sfx`
+- `cave-sfx`
+- `sea-sfx`
+- `forest-sfx`
+- `battle-sfx`
+- `magic-sfx`
+
+For now, all packs are free for testing. Manifests use:
+
+```json
+"commerce": {
+  "model": "free_testing",
+  "label": "Free for testing",
+  "future_label": "Try them"
+}
+```
+
+That leaves room for future paid packs while keeping the current clean-install
+test flow free.
 
 Recommended folder names:
 

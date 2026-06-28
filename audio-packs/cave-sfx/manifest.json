@@ -1,0 +1,34 @@
+{
+  "pack_id": "cave-sfx",
+  "name": "Cave SFX",
+  "version": "1.0.0",
+  "description": "One-shot cave effects for drips, bats, falling rocks, and echoing knocks.",
+  "availability": "free",
+  "library_folder": "Sound Effects/Cave",
+  "content_type": "sound_effects",
+  "genre": "Adventure",
+  "scene": "Cave",
+  "mood": [
+    "hollow",
+    "dark",
+    "natural"
+  ],
+  "recommended_for": [
+    "Cave exploration",
+    "Hidden threats",
+    "Underground travel"
+  ],
+  "sample_track": "SFX/rockfall.wav",
+  "license": "Original generated test audio",
+  "credits": "Generated for SubLim3 Nexus testing",
+  "commerce": {
+    "model": "free_testing",
+    "label": "Free for testing",
+    "future_label": "Try them"
+  },
+  "tags": [
+    "SFX",
+    "Cave",
+    "Exploration"
+  ]
+}

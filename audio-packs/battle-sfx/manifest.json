@@ -1,0 +1,34 @@
+{
+  "pack_id": "battle-sfx",
+  "name": "Battle SFX",
+  "version": "1.0.0",
+  "description": "One-shot combat effects for arrows, shields, war horns, and heavy impacts.",
+  "availability": "free",
+  "library_folder": "Sound Effects/Battle",
+  "content_type": "sound_effects",
+  "genre": "Action",
+  "scene": "Battle",
+  "mood": [
+    "violent",
+    "urgent",
+    "heroic"
+  ],
+  "recommended_for": [
+    "Combat rounds",
+    "Critical hits",
+    "Battle openings"
+  ],
+  "sample_track": "SFX/shield-block.wav",
+  "license": "Original generated test audio",
+  "credits": "Generated for SubLim3 Nexus testing",
+  "commerce": {
+    "model": "free_testing",
+    "label": "Free for testing",
+    "future_label": "Try them"
+  },
+  "tags": [
+    "SFX",
+    "Battle",
+    "Combat"
+  ]
+}

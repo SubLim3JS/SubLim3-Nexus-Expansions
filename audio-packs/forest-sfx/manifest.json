@@ -1,0 +1,34 @@
+{
+  "pack_id": "forest-sfx",
+  "name": "Forest SFX",
+  "version": "1.0.0",
+  "description": "One-shot wilderness effects for twigs, owls, brush, and distant wolves.",
+  "availability": "free",
+  "library_folder": "Sound Effects/Forest",
+  "content_type": "sound_effects",
+  "genre": "Adventure",
+  "scene": "Forest",
+  "mood": [
+    "wild",
+    "watchful",
+    "moonlit"
+  ],
+  "recommended_for": [
+    "Wilderness travel",
+    "Night watches",
+    "Ambush hints"
+  ],
+  "sample_track": "SFX/twig-snap.wav",
+  "license": "Original generated test audio",
+  "credits": "Generated for SubLim3 Nexus testing",
+  "commerce": {
+    "model": "free_testing",
+    "label": "Free for testing",
+    "future_label": "Try them"
+  },
+  "tags": [
+    "SFX",
+    "Forest",
+    "Travel"
+  ]
+}

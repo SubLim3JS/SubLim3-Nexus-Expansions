@@ -1,0 +1,34 @@
+{
+  "pack_id": "dungeon-sfx",
+  "name": "Dungeon SFX",
+  "version": "1.0.0",
+  "description": "One-shot dungeon effects for doors, chains, torches, and stone movement.",
+  "availability": "free",
+  "library_folder": "Sound Effects/Dungeon",
+  "content_type": "sound_effects",
+  "genre": "Fantasy",
+  "scene": "Dungeon",
+  "mood": [
+    "ancient",
+    "tense",
+    "underground"
+  ],
+  "recommended_for": [
+    "Dungeon crawls",
+    "Trap reveals",
+    "Exploration beats"
+  ],
+  "sample_track": "SFX/stone-rumble.wav",
+  "license": "Original generated test audio",
+  "credits": "Generated for SubLim3 Nexus testing",
+  "commerce": {
+    "model": "free_testing",
+    "label": "Free for testing",
+    "future_label": "Try them"
+  },
+  "tags": [
+    "SFX",
+    "Dungeon",
+    "Fantasy"
+  ]
+}

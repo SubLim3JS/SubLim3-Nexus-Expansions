@@ -1,0 +1,34 @@
+{
+  "pack_id": "sea-sfx",
+  "name": "Sea SFX",
+  "version": "1.0.0",
+  "description": "One-shot coastal and shipboard effects for waves, gulls, bells, and creaking decks.",
+  "availability": "free",
+  "library_folder": "Sound Effects/Sea",
+  "content_type": "sound_effects",
+  "genre": "Adventure",
+  "scene": "Sea",
+  "mood": [
+    "nautical",
+    "open",
+    "weathered"
+  ],
+  "recommended_for": [
+    "Sea travel",
+    "Harbors",
+    "Ship encounters"
+  ],
+  "sample_track": "SFX/wave-crash.wav",
+  "license": "Original generated test audio",
+  "credits": "Generated for SubLim3 Nexus testing",
+  "commerce": {
+    "model": "free_testing",
+    "label": "Free for testing",
+    "future_label": "Try them"
+  },
+  "tags": [
+    "SFX",
+    "Sea",
+    "Travel"
+  ]
+}

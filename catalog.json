@@ -9,6 +9,21 @@
       "manifest": "packs/dnd5e/manifest.json"
     },
     {
+      "pack_id": "battle-sfx",
+      "type": "audio_pack",
+      "manifest": "audio-packs/battle-sfx/manifest.json"
+    },
+    {
+      "pack_id": "cave-sfx",
+      "type": "audio_pack",
+      "manifest": "audio-packs/cave-sfx/manifest.json"
+    },
+    {
+      "pack_id": "dungeon-sfx",
+      "type": "audio_pack",
+      "manifest": "audio-packs/dungeon-sfx/manifest.json"
+    },
+    {
       "pack_id": "fantasy-battle-mode",
       "type": "audio_pack",
       "manifest": "audio-packs/fantasy-battle-mode/manifest.json"
@@ -29,6 +44,11 @@
       "manifest": "audio-packs/fantasy-travel/manifest.json"
     },
     {
+      "pack_id": "forest-sfx",
+      "type": "audio_pack",
+      "manifest": "audio-packs/forest-sfx/manifest.json"
+    },
+    {
       "pack_id": "horror-chase",
       "type": "audio_pack",
       "manifest": "audio-packs/horror-chase/manifest.json"
@@ -37,6 +57,16 @@
       "pack_id": "horror-tension",
       "type": "audio_pack",
       "manifest": "audio-packs/horror-tension/manifest.json"
+    },
+    {
+      "pack_id": "magic-sfx",
+      "type": "audio_pack",
+      "manifest": "audio-packs/magic-sfx/manifest.json"
+    },
+    {
+      "pack_id": "sea-sfx",
+      "type": "audio_pack",
+      "manifest": "audio-packs/sea-sfx/manifest.json"
     }
   ]
 }

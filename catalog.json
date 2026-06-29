@@ -9,6 +9,36 @@
       "manifest": "packs/dnd5e/manifest.json"
     },
     {
+      "pack_id": "d20-fantasy",
+      "type": "game_system",
+      "manifest": "packs/d20-fantasy/manifest.json"
+    },
+    {
+      "pack_id": "narrative-adventure",
+      "type": "game_system",
+      "manifest": "packs/narrative-adventure/manifest.json"
+    },
+    {
+      "pack_id": "percentile-horror",
+      "type": "game_system",
+      "manifest": "packs/percentile-horror/manifest.json"
+    },
+    {
+      "pack_id": "post-apocalyptic",
+      "type": "game_system",
+      "manifest": "packs/post-apocalyptic/manifest.json"
+    },
+    {
+      "pack_id": "scifi-dice-pool",
+      "type": "game_system",
+      "manifest": "packs/scifi-dice-pool/manifest.json"
+    },
+    {
+      "pack_id": "superheroes",
+      "type": "game_system",
+      "manifest": "packs/superheroes/manifest.json"
+    },
+    {
       "pack_id": "battle-sfx",
       "type": "audio_pack",
       "manifest": "audio-packs/battle-sfx/manifest.json"

@@ -1,17 +1,17 @@
 {
   "pack_id": "dnd5e",
-  "name": "D&D 5e",
-  "type": "game_system",
-  "version": "0.1.0",
-  "description": "Placeholder game-system expansion with optional scene audio folders.",
-  "system": "system.json",
-  "audio": {
-    "root": "audio",
-    "folders": [
-      { "path": "Battle Mode", "kind": "ambience", "description": "Combat and initiative music queue." },
-      { "path": "Tavern", "kind": "ambience", "description": "Social and rest scene music queue." },
-      { "path": "Dungeon", "kind": "ambience", "description": "Exploration and tension music queue." },
-      { "path": "SFX", "kind": "effect", "description": "One-shot table sound effects." }
-    ]
-  }
+  "system_id": "dnd5e",
+  "name": "Dungeons & Dragons 5e",
+  "version": "1.2",
+  "description": "A customizable 5e character and Player Controller pack.",
+  "publisher": "SubLim3",
+  "license": "Review publisher terms before commercial distribution",
+  "experience": "customizable",
+  "category": "Fantasy Game System",
+  "complexity": "Advanced",
+  "rules_summary": "5e-oriented character and controller template with familiar fantasy resources, page bindings, and death-save tracker behavior.",
+  "options": ["5e-style character fields", "Hit points and resources", "Death save tracker", "Controller-ready status pages"],
+  "recommended_audio_packs": ["fantasy-battle-mode", "fantasy-tavern", "fantasy-town", "fantasy-travel"],
+  "commerce": { "model": "free_testing", "label": "Free for testing", "future_label": "Try them" },
+  "tags": ["fantasy", "d20", "customizable"]
 }

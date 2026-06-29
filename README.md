@@ -13,6 +13,9 @@ downloadable content.
 catalog.json
 
 packs/
+  d20-fantasy/
+    manifest.json
+    system.json
   dnd5e/
     manifest.json
     system.json
@@ -21,6 +24,25 @@ packs/
       Tavern/
       Dungeon/
       SFX/
+  narrative-adventure/
+    manifest.json
+    system.json
+  percentile-horror/
+    manifest.json
+    system.json
+  post-apocalyptic/
+    manifest.json
+    system.json
+  scifi-dice-pool/
+    manifest.json
+    system.json
+    audio/
+      Battle Mode/
+      Starship/
+      SFX/
+  superheroes/
+    manifest.json
+    system.json
 
 audio-packs/
   fantasy-battle-mode/
@@ -74,6 +96,11 @@ audio-packs/
 ```
 
 ## Where to put game-system audio
+
+Game-system packs under `packs/<pack_id>/` provide optional character-sheet and
+rules templates. Core keeps only Custom RPG built in; optional systems such as
+D&D 5e, generic d20 fantasy, narrative adventure, percentile horror,
+post-apocalyptic, sci-fi dice pool, and superheroes live here.
 
 Put audio that belongs to a specific game system inside that pack:
 
